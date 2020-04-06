@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import { deletePost } from '../actions/postactions';
 
 class Post extends Component {
 
@@ -40,7 +41,7 @@ const mapStateToProps = (state,ownProps) => {
 
 const matchDispatchToProps = (dispatch) => {
     return {
-        deletePost :(id) => { dispatch({type:'DELETE_POST', id:id})}
+        deletePost :(id) => { dispatch(deletePost(id))}
     }
 }
 
