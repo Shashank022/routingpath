@@ -30,6 +30,32 @@ const initState = {
             "title": "nesciunt quas odio",
             "body": "repudiandae veniam quaerat sunt sed\nalias aut fugiat sit autem sed est\nvoluptatem omnis possimus esse voluptatibus quis\nest aut tenetur dolor neque"
           }
+    ],
+    contacts :[
+            {
+              "FirstName":"Manohar",
+              "LastName":"Kumar",
+              "Address":"2202 Chesnut Circle",
+              "Phone":9238492830
+            },
+            {
+              "FirstName":"Rajesh",
+              "LastName":"Kumar",
+              "Address":"2203 Chesnut Circle",
+              "Phone":9238492830
+            },
+            {
+              "FirstName":"Kiran",
+              "LastName":"Kumar",
+              "Address":"2202 Chesnut Circle",
+              "Phone":9238492830
+            },
+            {
+              "FirstName":"Kimberly",
+              "LastName":"Manohar",
+              "Address":"2202 Chesnut Circle",
+              "Phone":9238492830
+            }
     ]
 }
 
