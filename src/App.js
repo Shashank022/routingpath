@@ -6,6 +6,7 @@ import Home from './Components/Home';
 import About from './Components/About';
 import Contact from './Components/Contact';
 import Post from './Components/Post';
+import Info from './Components/Info';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Switch>
         <Route exact path='/home' component={Home} />
         <Route path='/about' component={About} />
+        <Route path='/info' component={ Info } />
         <Route path='/contact' component={Contact} />  
         <Route path='/posts/:post_id' component={Post} />  
         </Switch>
