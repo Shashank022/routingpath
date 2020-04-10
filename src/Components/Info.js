@@ -1,4 +1,5 @@
 import React from 'react';
+import { connect } from 'react-redux'
 
 const Info  = () =>{
     return(
@@ -14,4 +15,13 @@ const Info  = () =>{
     )
 }
 
-export default Info;
+
+const mapStateToProps = (state) => {
+    return {
+            
+    }
+}
+
+
+
+export default connect(mapStateToProps)(Info);

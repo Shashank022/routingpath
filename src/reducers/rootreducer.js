@@ -33,24 +33,28 @@ const initState = {
     ],
     contacts :[
             {
+              "id": 1,
               "FirstName":"Manohar",
               "LastName":"Kumar",
               "Address":"2202 Chesnut Circle",
               "Phone":9238492830
             },
             {
+              "id": 2,
               "FirstName":"Rajesh",
               "LastName":"Kumar",
               "Address":"2203 Chesnut Circle",
               "Phone":9238492830
             },
             {
+              "id": 3,
               "FirstName":"Kiran",
               "LastName":"Kumar",
               "Address":"2202 Chesnut Circle",
               "Phone":9238492830
             },
             {
+              "id": 4,
               "FirstName":"Kimberly",
               "LastName":"Manohar",
               "Address":"2202 Chesnut Circle",
