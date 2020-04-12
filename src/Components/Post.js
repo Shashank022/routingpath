@@ -4,25 +4,34 @@ import { deletePost } from '../actions/postactions';
 
 class Post extends Component {
 
-    handleClick = () => {
+    handleDeleteClick = () => {
         this.props.deletePost(this.props.post.id);
         this.props.history.push('/home');
+    }
+
+    handleEditClick = () => {
+        console.log(this.props);
+        
     }
 
     render(){
         console.log(this.props);
         const post = this.props.post ? 
         (
+           
             <div className="post">
-                <h4 className="center">{this.props.post.title}</h4>
-                <p>{this.props.post.body}</p>
-                <div className="center">
-                    <button className="btn grey" onClick={this.handleClick}>Delete Post</button>
+                <div className = "card-panel">
+                    <h4 className="center">{this.props.post.title}</h4>
+                    <p>{this.props.post.body}</p>
+                    <div className="center" >
+                        <button className="btn grey center "  onClick={this.handleDeleteClick}>Delete Post</button>
+                        <button className="btn green center" onClick={this.handleEditClick}>Edit Post</button>
+                    </div>
                 </div>
             </div>
         ):(
             <div className="center">Loading Post.....</div>
-        );
+        );  
         return(
             <div className="container">
                 { post }
@@ -44,5 +53,6 @@ const matchDispatchToProps = (dispatch) => {
         deletePost :(id) => { dispatch(deletePost(id))}
     }
 }
+
 
 export default connect(mapStateToProps, matchDispatchToProps)(Post);
