@@ -5,17 +5,13 @@ class  Contact extends Component{
     //const { contacts } = this.props;
     render(){
         console.log(this.props);
-        console.log("___---------------------");
-        
-        console.log(this.props.contacts);
-        console.log("___---------------------");
         const contactList = this.props.contacts.length ? (
         this.props.contacts.map(contact => {
             return (
                 <div className="post card sm-flex" key={contact.id}>
-                    <div className="card-content">
-                        <span className="card-body">{contact.FirstName}</span>
-                        <span className="card-body">{contact.LastName}</span>
+                    <div className="card-content left">
+                        <span className="card-body left">{contact.FirstName}</span>
+                        <span className="card-body left">{contact.LastName}</span>
                         <p>{contact.Address}</p>
                         <p>{contact.Phone}</p>
                     </div>

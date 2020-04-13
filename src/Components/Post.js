@@ -24,8 +24,8 @@ class Post extends Component {
                     <h4 className="center">{this.props.post.title}</h4>
                     <p>{this.props.post.body}</p>
                     <div className="center" >
-                        <button className="btn grey center "  onClick={this.handleDeleteClick}>Delete Post</button>
                         <button className="btn green center" onClick={this.handleEditClick}>Edit Post</button>
+                        <button className="btn red lighten-2 center "  onClick={this.handleDeleteClick}>Delete Post</button>
                     </div>
                 </div>
             </div>

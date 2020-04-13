@@ -3,8 +3,8 @@ const initState = {
         {
             "userId": 1,
             "id": 1,
-            "title": "Welcome aut facere repellat provident occaecati excepturi optio reprehenderit",
-            "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+            "title": "  Information System",
+            "body": "Many organizations work with large amounts of data. Data are basic values or facts and are organized in a database. Many people think of data as synonymous with information; however, information actually consists of data that has been organized to help answers questions and to solve problems. An information system is defined as the software that helps organize and analyze data. So, the purpose of an information system is to turn raw data into useful information that can be used for decision making in an organization."
           },
           {
             "userId": 1,
@@ -34,27 +34,41 @@ const initState = {
     contacts :[
             {
               "id": 1,
-              "FirstName":"Manohar",
+              "FirstName":"Manohar ",
               "LastName":"Kumar",
               "Address":"2202 Chesnut Circle",
               "Phone":9238492830
             },
             {
               "id": 2,
-              "FirstName":"Rajesh",
+              "FirstName":"Rajesh ",
               "LastName":"Kumar",
               "Address":"2203 Chesnut Circle",
               "Phone":9238492830
             },
             {
               "id": 3,
-              "FirstName":"Kiran",
+              "FirstName":"Kiran ",
               "LastName":"Kumar",
               "Address":"2202 Chesnut Circle",
               "Phone":9238492830
             },
             {
               "id": 4,
+              "FirstName":"Kimberly ",
+              "LastName":"Manohar",
+              "Address":"2202 Chesnut Circle",
+              "Phone":9238492830
+            },
+            {
+              "id": 5,
+              "FirstName":"Kiran  ",
+              "LastName":"Kumar",
+              "Address":"2202 Chesnut Circle",
+              "Phone":9238492830
+            },
+            {
+              "id": 6,
               "FirstName":"Kimberly",
               "LastName":"Manohar",
               "Address":"2202 Chesnut Circle",
