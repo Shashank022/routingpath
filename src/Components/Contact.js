@@ -19,7 +19,7 @@ class  Contact extends Component{
             ) 
         }))
         :(
-            <div className="center"> No Posts yet.!!!</div>
+            <div className="center"> No Posts yet.!!!</div> 
                 )
         return(
             <div className="container home">
